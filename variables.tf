@@ -11,7 +11,7 @@ variable "naming" {
 
 variable "location" {
   description = "default azure region to be used."
-  type        = string
+  type        = map(string)
   default     = null
 }
 
