@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/CloudNationHQ/terraform-wam-workshop-exc3/compare/v0.1.0...v0.2.0) (2024-07-04)
+
+
+### Features
+
+* demo purposes ([#3](https://github.com/CloudNationHQ/terraform-wam-workshop-exc3/issues/3)) ([26474f0](https://github.com/CloudNationHQ/terraform-wam-workshop-exc3/commit/26474f0f8b8452ba6f8964f62a19ba12d99431b8))
+
 ## 0.1.0 (2024-07-04)
 
 
