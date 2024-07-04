@@ -1,5 +1,64 @@
 # Changelog
 
+## 0.1.0 (2024-07-04)
+
+
+### Features
+
+* add conditional expressions to allow some global properties and updated documentation ([#42](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/42)) ([2f72ed2](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/2f72ed23da466ea0cc782d4c1ba4c2a048bf61cd))
+* add customer managed key support ([#44](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/44)) ([33400c2](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/33400c21778e2c89e9f3ca925be4ff1b1f555383))
+* add initial resources ([#1](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/1)) ([d983841](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/d98384188d09f4710092b6f23e977f8d3f3c1f49))
+* add issue template ([#81](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/81)) ([248abb8](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/248abb83b668f3cfc206ef3f3431b4b6ad2bb1b2))
+* add pull request template ([#70](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/70)) ([8a590ba](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/8a590bae822ddf753fa350ed58a88be9d8d9c6fd))
+* add several missing properties ([#19](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/19)) ([b0b9597](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/b0b95972c58ad15c00c6bbc74ad1500dc2b8f0fa))
+* add support for network rules ([#5](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/5)) ([9b63cde](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/9b63cde7723d26082525eb1027735582b95f9701))
+* added extended testing for all subresources and refactored code to be more idiomatic ([#55](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/55)) ([9e0ab46](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/9e0ab46e51363afbb8ec017e34818b8650f824e5))
+* change default value cross tenant replication to false ([#23](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/23)) ([1dadbfd](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/1dadbfdcbf91794e5dfa8a7751ef741abc5ac16a))
+* change defaults bypass property network rules ([#30](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/30)) ([f4147ba](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/f4147bace32f39dbffe546a230926f5cced72ea8))
+* **deps:** bump github.com/Azure/azure-sdk-for-go/sdk/azidentity ([#26](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/26)) ([9be36c1](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/9be36c1bdedc9c3a2121a251bfdb5ee20957be81))
+* **deps:** bump github.com/Azure/azure-sdk-for-go/sdk/azidentity ([#59](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/59)) ([0fdca5c](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/0fdca5cb39f3c4aaa7c2af69e281bc57fd5008d8))
+* **deps:** bump github.com/Azure/azure-sdk-for-go/sdk/azidentity ([#73](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/73)) ([de83299](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/de832990a3058a1d28921652a36eba84c73aadcb))
+* **deps:** bump github.com/Azure/azure-sdk-for-go/sdk/azidentity ([#74](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/74)) ([5ebd049](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/5ebd04964e16c2166f94689098d507b10e9007ac))
+* **deps:** bump github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/storage/armstorage ([#10](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/10)) ([b393565](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/b3935652c8ec5cb203f7c8c78e521e44d0ba54fe))
+* **deps:** bump github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/storage/armstorage ([#80](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/80)) ([bc7d5d9](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/bc7d5d92cd0529a8011fecdf1f0166720e4bf553))
+* **deps:** bump github.com/gruntwork-io/terratest in /tests ([#11](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/11)) ([cf34c3b](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/cf34c3b768257863fb0eea75746456d115e0454a))
+* **deps:** bump github.com/gruntwork-io/terratest in /tests ([#18](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/18)) ([758d745](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/758d745d3e9ccffb35b122484fa16471e7024e38))
+* **deps:** bump github.com/gruntwork-io/terratest in /tests ([#27](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/27)) ([b739c64](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/b739c6422b99d9846b94dff38c16df1586962f5e))
+* **deps:** bump github.com/gruntwork-io/terratest in /tests ([#54](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/54)) ([22d6d8f](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/22d6d8fde5570117daccfc73b5ec4c1e66a0b268))
+* **deps:** bump github.com/gruntwork-io/terratest in /tests ([#63](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/63)) ([f7734f4](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/f7734f4de49c7ea0543f9e77bbc8f04a61e1fb31))
+* **deps:** bump github.com/gruntwork-io/terratest in /tests ([#7](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/7)) ([101829f](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/101829fc4a8a347d91f54b7a4425f57a25084dde))
+* **deps:** bump github.com/gruntwork-io/terratest in /tests ([#79](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/79)) ([4750e4a](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/4750e4a41fa82746d9174819210ac9e131291ff4))
+* **deps:** bump github.com/hashicorp/go-getter in /tests ([#61](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/61)) ([4de5cc4](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/4de5cc46be51fd285840cc52cfc760c7d0d162fa))
+* **deps:** bump github.com/hashicorp/go-getter in /tests ([#75](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/75)) ([e865266](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/e86526631691586d8471c730826f88a387137611))
+* **deps:** bump github.com/stretchr/testify in /tests ([#40](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/40)) ([5324e37](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/5324e37981559e9351dfd031fe40349a886b1ce3))
+* **deps:** bump golang.org/x/crypto from 0.14.0 to 0.17.0 in /tests ([#12](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/12)) ([7b07c5a](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/7b07c5aaf08d2dbf7442f6d8f6556ebc9d611d4f))
+* **deps:** bump golang.org/x/net from 0.19.0 to 0.23.0 in /tests ([#60](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/60)) ([de1458e](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/de1458e317df6875a6e8c3d1d7db49d5fca9ad27))
+* **deps:** bump google.golang.org/protobuf in /tests ([#46](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/46)) ([3eee708](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/3eee708ae300c759b8e6cd03adb54a0f0187fe7a))
+* enhance dynamic conditions for blob, queue, and share blocks ([#77](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/77)) ([b7182f8](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/b7182f8039d965fc81b7b8825c6482da558bcdbd))
+* fix module source references in examples ([#3](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/3)) ([fabd090](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/fabd0902a537d0d40d04cabb0c5f65769cb04046))
+* improved alignment for several properties and added some missing ones ([#32](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/32)) ([fb7a1a9](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/fb7a1a96063428bf79c26b45c1bed1da24650a2f))
+* Improved name property flexibility with manual and default options ([#16](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/16)) ([c101a0f](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/c101a0fc712df97fcd03584e9a32eef8a2e4c5c4))
+* make use of table driven tests ([#57](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/57)) ([2f3b431](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/2f3b431d74e8e05d13477d612b1aaaec97321cb6))
+* modularize azure client initialization in extended test ([#84](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/84)) ([6a0f717](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/6a0f717dc8509f4f98f573225b337c34bc58fa78))
+* optimized dynamic identity blocks ([#36](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/36)) ([1726abf](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/1726abffcf7e864f9353eb62c712b9817ce4717c))
+* reduced redundancy and improved error handling extended tests ([#87](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/87)) ([b599304](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/b5993044e5a6b6d2573ff5a43e59e5ae0e6191aa))
+* refactored extended tests for modularity and readability and added container verifications ([#52](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/52)) ([5c9a15e](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/5c9a15ebb2baae1bff2d248deb0887f4f6a5c986))
+* retention and restore policies are fully optional now ([#20](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/20)) ([1e94788](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/1e947883d294b875ed9d26f43c3abc55989542d5))
+* small correction in documentation private endpoint usage ([#51](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/51)) ([ccf48a9](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/ccf48a91f0b79135d20bd4f59472c20de0db2b71))
+* small refactor private endpoints ([#47](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/47)) ([f9a612e](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/f9a612eec245033b91e6ba40b4564638f26b166c))
+* small refactor workflows ([#25](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/25)) ([7d27e7f](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/7d27e7fff07d8a1909118dcdf577a982bec4d8e9))
+* update contribution docs ([#89](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/89)) ([7d94951](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/7d9495127865d02e7373b3b4b3468207d0fe0ed6))
+* update documentation ([#49](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/49)) ([6edf53b](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/6edf53b6c42e4755e784bde829b072a8edd49c6e))
+
+
+### Bug Fixes
+
+* ensure container access type is fully optional ([#68](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/68)) ([17c18dd](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/17c18dd2e6e421b7ffd9b30554f2212cfbd1c32b))
+* fix handling of optional cors rules for blob, shares and queues ([#65](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/65)) ([163033b](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/163033be9ec28b813855b89e3c0f50866da6a677))
+* fix queue, blob and share properties to be fully optional ([#38](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/38)) ([97224f5](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/97224f5ee2eda8686294930df5166e94f70f937c))
+* fix typos queue properties ([#34](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/34)) ([2434e70](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/2434e70de6e115ec9d44a0e7a1b1175c8d0d4c0f))
+* make blob properties fully optional again ([#31](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/issues/31)) ([340a882](https://github.com/CloudNationHQ/terraform-azure-sa-workshop/commit/340a882337406a99e97d471d7a1b0201a088d871))
+
 ## [0.22.0](https://github.com/CloudNationHQ/terraform-azure-sa/compare/v0.21.0...v0.22.0) (2024-07-04)
 
 
