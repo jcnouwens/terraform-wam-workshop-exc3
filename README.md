@@ -1,7 +1,6 @@
 # Storage Account
 
-This repository is created for demo purposes.
-This terraform module simplifies the process of creating and managing storage accounts on azure with customizable options and features, offering a flexible and powerful solution for managing azure storage through code.
+This repository is created for demo purposes
 
 ## Goals
 
